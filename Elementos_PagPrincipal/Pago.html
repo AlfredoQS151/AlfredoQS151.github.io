@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Método de Pago</title>
+  <link rel="icon" type="image/png" href="Pagina_Principal/imgs/logo.png">
+  <link rel="stylesheet" href="Pagos/Pagos.css">
+</head>
+<body>
+  <div class="payment-container">
+    <h1>Método de Pago</h1>
+    
+    <div class="payment-methods">
+      <button class="payment-method">
+        <img src="Pagos/credit.png" alt="Tarjeta de Crédito o Débito">
+        Tarjeta de Crédito o Débito
+      </button>
+      <button class="payment-method">
+        <img src="Pagos/paypal.png" alt="PayPal">
+        PayPal
+      </button>
+    </div>
+    
+    <form class="payment-form">
+      <label for="card-number">Número de Tarjeta</label>
+      <input type="text" id="card-number" placeholder="1234 1234 1234 1234">
+      
+      <label for="card-expiry">Expira</label>
+      <input type="text" id="card-expiry" placeholder="MM/YY">
+      
+      <label for="card-cvc">CVC</label>
+      <input type="text" id="card-cvc" placeholder="CVC">
+      
+      <label for="card-holder">Nombre del Titular</label>
+      <input type="text" id="card-holder" placeholder="Nombre del Titular">
+      
+      <label for="postal-code">Código Postal</label>
+      <input type="text" id="postal-code" placeholder="Código Postal">
+      
+      <label for="total">TOTAL</label>
+      <input type="text" id="total" placeholder="TOTAL">
+      
+      <button type="submit" class="pay-button">Pagar</button>
+    </form>
+    
+    <div class="credit-card-logos">
+      <img src="Pagos/visa.png" alt="Visa">
+      <img src="Pagos/master.png" alt="MasterCard">
+      <img src="Pagos/amex.png" alt="American Express">
+    </div>
+    
+  </div>
+</body>
+</html>

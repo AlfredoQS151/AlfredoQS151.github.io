@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra de Entradas</title>
+  <link rel="icon" type="image/png" href="Pagina_Principal/imgs/logo.png">
+  <link rel="stylesheet" href="Compra/Compras.css">
+</head>
+<body>
+  <div class="tickets-section">
+    <h2>Comprar Entradas</h2>
+    <p>Consigue tus boletos online</p>
+    <div class="tickets-options">
+      <div class="ticket">
+        <img src="Compra/imgs/adult_icon_142675.png"atl="Icono Adulto" class="ticket-image">
+        <h3>Adulto (12+ años)</h3>
+        <p class="price">$25.00</p>
+        <input type="number" class="quantity" min="0" value="0">
+      </div>
+      <div class="ticket">
+        <img src="Compra/imgs/niño.png"alt="Icono Niño" class="ticket-image">
+        <h3>Niño (4-12 años)</h3>
+        <p class="price">$15.00</p>
+        <input type="number" class="quantity" min="0" value="0">
+      </div>
+      <div class="ticket">
+        <img src="Compra/imgs/bebe.png"alt="Icono Bebé" class="ticket-image">
+        <h3>Bebé (0-3 años)</h3>
+        <p class="price">Gratis</p>
+      </div>
+    </div>
+    <a href="Pagina Principal.html" class="back-button">Volver a Inicio</a>
+    <button onclick="window.location.href='Pago.html';" class="pay-button">Pagar</button>
+  </div>
+</body>
+</html>
