@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.services-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service-item {
+    flex-basis: 30%;
+    background: #f3f3f3;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.service-icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+.back-button, .back-button:hover {
+    background-color: #168f127c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #178f12;
+}
