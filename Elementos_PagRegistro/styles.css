@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.encabezado {
+    text-align: center;
+    background: black; 
+    padding: 10px 0;
+}
+
+.encabezado img {
+    max-width: 100%;
+    height: auto;
+}
+
+.formulario-registro {
+    max-width: 425px;
+    margin: 20px auto; 
+    padding: 20px;
+    background: #f3f3f3; 
+    border-radius: 10px; 
+}
+
+.formulario-registro h2 {
+    text-align: center; 
+}
+
+.formulario-registro form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.formulario-registro input {
+    padding: 10px 0;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.formulario-registro input:focus {
+    outline: none;
+    border-bottom: 2px solid #178f12;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.contenedor-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-input input[type="text"] {
+    width: calc(50% - 4px);
+    margin-right: 8px;
+}
+
+.boton {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #168f127c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.boton:hover {
+    background-color: #178f12;
+}
