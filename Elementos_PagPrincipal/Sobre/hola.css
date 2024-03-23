@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.title, .subtitle {
+    color: #168f127c;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn-custom {
+    background-color: #168f127c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-outline-success {
+    color: #168f127c;
+    border-color: #168f127c;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.btn-outline-success:hover, .btn-custom:hover {
+    background-color: #178f12;
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .img-fluid {
+        max-width: 80%;
+    }
+}
+
+.donations {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #178f12;
+}
+
+.donations a {
+    color: #178f12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.donations a:hover {
+    text-decoration: underline;
+}
+.back-button, .back-button:hover {
+  background-color: #168f127c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Fredoka', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #178f12;
+}
